@@ -356,6 +356,7 @@ def parser(command: str) -> str:
 
 
 def main():
+    print(help())
     while True:
         command = input("Enter your command > ")
         ret_code = parser(command)
